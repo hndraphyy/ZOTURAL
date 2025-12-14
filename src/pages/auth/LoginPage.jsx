@@ -5,7 +5,17 @@ import usePageTitle from "../../hooks/usePageTitle";
 import useAuth from "../../hooks/useAuth";
 import Button from "../../components/ui/Button";
 
+import Modal from "../../components/modals/BaseModal";
+import useModal from "../../hooks/useModal";
+import AuthInfo from "../../components/modals/AuthInfo";
+
 const LoginPage = () => {
+  const { isOpenModal, openModal, closeModal } = useModal();
+
+  React.useEffect(() => {
+    openModal();
+  }, []);
+
   usePageTitle("Login");
   const { login } = useAuth();
 
@@ -155,6 +165,9 @@ const LoginPage = () => {
           </div>
         </form>
       </div>
+      <Modal isOpen={isOpenModal} onClose={closeModal}>
+        <AuthInfo onCancel={closeModal} />
+      </Modal>
     </div>
   );
 };
