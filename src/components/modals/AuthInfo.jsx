@@ -1,4 +1,5 @@
 import Button from "../ui/Button";
+import { PiWarningCircleFill } from "react-icons/pi";
 
 const AuthInfo = ({ onCancel }) => {
   return (
@@ -44,9 +45,11 @@ const AuthInfo = ({ onCancel }) => {
           </p>
         </div>
 
-        <p className="text-sm text-gray-600 mt-3">
-          🔒 Ini aplikasi demo. Tidak ada fitur register — cukup login pakai
-          akun di atas!
+        <p className="text-sm text-gray-600 mt-3 flex items-start gap-1 lg:gap-2">
+          <PiWarningCircleFill className="text-purple w-16 h-16" />
+          Please Note: This is a **Frontend Only Demo**. All data displayed here
+          is **dummy data** and not connected to a live database. Please use the
+          accounts listed above to log in.
         </p>
       </div>
 
