@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/assets/images/logo.png" alt="Zotu-Logo" style="width: 100px;" />
+  <img src="./public/assets/images/logo.png" alt="Zotu Logo" width="100" />
 </p>
 
 # Zotural — Admin Panel Dashboard
@@ -7,11 +7,16 @@
 Zotural is a **web-based internal admin panel** designed to simulate a simple company management system.  
 This application supports **two user roles (Manager & Sales Agent)** with different access levels and responsibilities, focusing on operational data management.
 
-> ⚠️ Note: This project is **frontend-only** and uses **dummy data** for portfolio and industry simulation purposes.
+> ⚠️ Note: This project is **frontend-only**, and all data used is **dummy data** for portfolio and industry simulation purposes.
 
 ---
 
-## 🔑 Role & Login Access
+## 🌐 Live Demo
+👉 https://zotu.vercel.app
+
+---
+
+## 🔑 Login Access & Roles
 
 ### Manager
 - Email: `manager@gmail.com`
@@ -30,32 +35,33 @@ This application supports **two user roles (Manager & Sales Agent)** with differ
 ### Pages & Features
 
 #### Dashboard
-- System overview and key metrics
+- System overview and key performance metrics
 - Summary of employees, products, and transactions
-- Operational statistics
-
-#### Employees
-- Search and filter by status
-- Add, edit, and delete employees
-- Employee detail displayed via modal
+- General operational insights
 
 #### Products
 - Product data management
-- Filter by category and stock status
-- Create, update, and delete products (modal-based)
+- Search by product name and stock status
+- Create, view details, update, and delete products (modal-based)
 
 #### Transactions
 - List of all company transactions
-- Filter by date range and status
+- Search by customer name and sales agent
+- Filter by date range and transaction status
 - Transaction detail view
+
+#### Employees
+- Employee data management
+- Search by employee name and filter by status
+- Create, view details, update, and delete employees (modal-based)
 
 #### Reports
 - Transaction summary by selected period
+- Search by sales agent name and filter by year
 - Report table with export simulation (PDF)
 
 #### Settings
 - Update profile information
-- Logout
 
 ---
 
@@ -65,24 +71,25 @@ This application supports **two user roles (Manager & Sales Agent)** with differ
 
 #### Dashboard
 - Personal sales performance overview
-- Recent customers and orders summary
+- Summary of recent customers and orders
 
 #### Customers
 - Customer data management
-- Add, edit, and delete customers
+- Create, view details, update, and delete customers (modal-based)
 
 #### Orders
 - Create new orders
-- Filter orders by date and status
+- Search by customer name
+- Filter by date and order status
 - Order detail view
 
 #### Reports
 - Personal sales reports
-- Order recap table by selected period
+- Order recap by selected period
+- Report table with export simulation (PDF)
 
 #### Settings
 - Update profile information
-- Logout
 
 ---
 
@@ -99,7 +106,7 @@ This application supports **two user roles (Manager & Sales Agent)** with differ
 This project was built to:
 - Simulate an **industry-style admin panel**
 - Serve as a **frontend developer portfolio project**
-- Practice **role-based UI and access control**
+- Practice **role-based UI rendering and access control simulation**
 
 No real backend or database is used.
 
@@ -110,5 +117,3 @@ No real backend or database is used.
 ```bash
 npm install
 npm run dev
-
-apa udah aman broo??
