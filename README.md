@@ -12,7 +12,7 @@ This application supports **two user roles (Manager & Sales Agent)** with differ
 ---
 
 ## 🌐 Live Demo
-👉 https://zotu.vercel.app
+👉 <a href="https://zotu.vercel.app" target="_blank">https://zotu.vercel.app<a/>
 
 ---
 
