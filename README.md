@@ -7,7 +7,7 @@
 Zotural is a **web-based internal admin panel** designed to simulate a simple company management system.  
 This application supports **two user roles (Manager & Sales Agent)** with different access levels and responsibilities, focusing on operational data management.
 
-> ⚠️ Note: This project is **frontend-only**, and all data used is **dummy data** for portfolio and industry simulation purposes.
+> ⚠️ Note: Backend-ready frontend architecture using mock data for UI and workflow simulation.
 
 ---
 
