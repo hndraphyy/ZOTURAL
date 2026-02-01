@@ -1,16 +1,121 @@
-# React + Vite
+<p align="center">
+  <img src="./public/assets/images/logo.png" alt="Zotu Logo" width="100" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Zotural — Admin Panel Dashboard
 
-Currently, two official plugins are available:
+Zotural is a **web-based internal admin panel** designed to simulate a simple company management system.  
+This application supports **two user roles (Manager & Sales Agent)** with different access levels and responsibilities, focusing on operational data management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ Note: Backend-ready frontend architecture using mock data for UI and workflow simulation.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
+👉 <a href="https://zotu.vercel.app" target="_blank" rel="noopener noreferrer">View Live Demo</a>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🔑 Login Access & Roles
+
+### Manager
+- Email: `manager@gmail.com`
+- Username: `manager`
+- Password: `secret`
+
+### Sales Agent
+- Email: `sales@gmail.com`
+- Username: `sales`
+- Password: `secret`
+
+---
+
+## 🧑‍💼 Manager Role
+
+### Pages & Features
+
+#### Dashboard
+- System overview and key performance metrics
+- Summary of employees, products, and transactions
+- General operational insights
+
+#### Products
+- Product data management
+- Search by product name and stock status
+- Create, view details, update, and delete products (modal-based)
+
+#### Transactions
+- List of all company transactions
+- Search by customer name and sales agent
+- Filter by date range and transaction status
+- Transaction detail view
+
+#### Employees
+- Employee data management
+- Search by employee name and filter by status
+- Create, view details, update, and delete employees (modal-based)
+
+#### Reports
+- Transaction summary by selected period
+- Search by sales agent name and filter by year
+- Report table with export simulation (PDF)
+
+#### Settings
+- Update profile information
+
+---
+
+## 🧑‍💼 Sales Agent Role
+
+### Pages & Features
+
+#### Dashboard
+- Personal sales performance overview
+- Summary of recent customers and orders
+
+#### Customers
+- Customer data management
+- Create, view details, update, and delete customers (modal-based)
+
+#### Orders
+- Create new orders
+- Search by customer name
+- Filter by date and order status
+- Order detail view
+
+#### Reports
+- Personal sales reports
+- Order recap by selected period
+- Report table with export simulation (PDF)
+
+#### Settings
+- Update profile information
+
+---
+
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+
+---
+
+## 🎯 Project Purpose
+
+This project was built to:
+- Simulate an **industry-style admin panel**
+- Serve as a **frontend developer portfolio project**
+- Practice **role-based UI rendering and access control simulation**
+
+No real backend or database is used.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
