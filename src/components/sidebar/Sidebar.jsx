@@ -30,12 +30,12 @@ const Sidebar = ({ Links }) => {
         />
 
         <div
-          className={`w-full overflow-x-auto md:overflow-y-auto px-2 md:px-3 lg:px-5 flex justify-between md:flex-col md:gap-3 md:h-[calc(100vh-320px)] 
+          className={`w-full overflow-x-auto md:overflow-y-auto px-2 md:px-3 lg:px-5 flex justify-between md:flex-col md:gap-3 md:h-[calc(100vh-320px)] 2xl:h-[calc(100vh-420px)]
             [&::-webkit-scrollbar]:ml-4
             [&::-webkit-scrollbar]:w-1.5
-            [&::-webkit-scrollbar-track]:bg-gray-300
+            [&::-webkit-scrollbar-track]:bg-gray-700
             [&::-webkit-scrollbar-track]:rounded-full
-            [&::-webkit-scrollbar-thumb]:bg-purple-400
+            [&::-webkit-scrollbar-thumb]:bg-gray-300
             [&::-webkit-scrollbar-thumb]:rounded-full
           `}
         >
@@ -83,7 +83,7 @@ const Sidebar = ({ Links }) => {
         </div>
       </div>
 
-      <div className="hidden md:block absolute pb-8 bottom-0 w-full px-5">
+      <div className="hidden md:block absolute pb-8 bottom-0 md:-bottom-3 2xl:bottom-0 w-full px-5 ">
         <Button
           onClick={handleLogout}
           variant="logout"
